@@ -108,11 +108,12 @@ def map_elites_to_heatmap(map_elite_dict, num_bins=[11,11],  bounds = [(0,10),(0
     plt.show()
 
 def main():
+    #Creates the map elites
     ME = map_elites()
+    
+    #Creates the heatmaps and displays them
     map_elites_to_heatmap(ME[0])
     map_elites_to_heatmap(ME[1])
-    #print(ME[1])
-    pass
 
 
 
